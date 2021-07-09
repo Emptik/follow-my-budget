@@ -1,0 +1,87 @@
+// Abstracts
+@use '../abstracts' as *;
+
+// Vendors
+@use '../vendors/sass-mq/mq' as *;
+
+// BEM Blocks
+.c-budget {
+    padding: 50px 15px;
+    color: $color-budget-content;
+    font-size: $font-size-budget-content;
+
+    @include mq($from: tablet) {
+        padding: 50px 0;
+    }
+}
+
+// BEM Elements
+.c-budget__title {
+    margin-bottom: 30px;
+    font-size: $font-size-title;
+}
+
+.c-budget__title--center {
+    text-align: center;
+}
+
+.c-budget__total {
+    display: block;
+    margin-bottom: 30px;
+    font-size: $font-size-budget-total;
+}
+
+.c-budget__total--center {
+    text-align: center;
+}
+
+.c-budget__item {
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.c-budget__item--income {
+    margin-bottom: 10px;
+    background-color: $color-income;
+}
+
+.c-budget__item--expense {
+    background-color: $color-expense;
+}
+
+.c-budget__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 60px;
+}
+
+.c-budget__container--row {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.c-budget__container--spaceBetween {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.c-budget__container--itemsCenter {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.c-budget__percentage {
+    margin-left: 10px;
+    padding: 5px;
+    background-color: $color-expense-background;
+    border-radius: 3px;
+}
+
+.c-budget__percentage--center {
+    text-align: center;
+}

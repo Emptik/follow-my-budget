@@ -1,0 +1,27 @@
+// Abstracts
+@use '../abstracts' as *;
+
+// Vendors
+@use '../vendors/sass-mq/mq' as *;
+
+// BEM Blocks
+.c-income {
+    margin: 0 15px;
+
+    @include mq($from: tablet) {
+        width: 40%;
+        margin: 0 0 0 15px;
+    }
+}
+
+// BEM Elements
+.c-icome__title {
+    margin-bottom: 20px;
+    color: $color-income;
+    font-size: $font-size-title;
+    text-transform: uppercase;
+}
+
+.c-income__title--center {
+    text-align: center;
+}

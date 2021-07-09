@@ -1,0 +1,14 @@
+// Abstracts
+@use '../abstracts' as *;
+
+// Vendors
+@use '../vendors/sass-mq/mq' as *;
+
+// BEM Blocks
+.l-budget {
+    margin: 0 auto;
+
+    @include mq($from: tablet) {
+        max-width: 350px;
+    }
+}

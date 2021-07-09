@@ -1,0 +1,29 @@
+// Abstracts
+@use '../abstracts' as *;
+
+// Vendors
+@use '../vendors/sass-mq/mq' as *;
+
+// BEM Blocks
+.c-expense {
+    margin: 0 15px;
+    padding-top: 50px;
+
+    @include mq($from: tablet) {
+        width: 40%;
+        margin: 0 15px 0 0;
+        padding-top: inherit;
+    }
+}
+
+// BEM Elements
+.c-expense__title {
+    margin-bottom: 20px;
+    color: $color-expense;
+    font-size: $font-size-title;
+    text-transform: uppercase;
+}
+
+.c-expense__title--center {
+    text-align: center;
+}
