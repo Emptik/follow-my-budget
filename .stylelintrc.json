@@ -1,0 +1,20 @@
+{
+    "extends": [
+        "stylelint-config-standard",
+        "stylelint-config-sass-guidelines",
+        "stylelint-config-rational-order"
+    ],
+    "rules": {
+        "indentation": [4],
+        "order/properties-alphabetical-order": null,
+        "selector-class-pattern": [
+            "^c-[a-z]|^l-[a-z]",
+            {
+                "message":
+                    "Class selector must start by c- OR l- (selector-class-pattern)"
+            }
+        ],
+        "property-no-vendor-prefix": null,
+        "value-no-vendor-prefix": null
+    }
+}
