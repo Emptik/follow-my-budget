@@ -25,7 +25,7 @@ For doing that, type the command line **"npm install -g sass"**.<br/>
 Then i recommend you to compile your scss files by typing the command line **"sass --watch sass:css"** inside the public folder of the project.
 
 > **Note**: In the root folder you will see several configuration files like,<br/>
-".eslintrc.js", ".stylelintrc.json" and "phpcs.xml".
+".eslintrc.js", ".stylelintrc.json".
 They are useful if you want to use some linters, that i recommend you to use.<br/>
 See the part [Useful links](#usefulLinks) down of this page.
 
@@ -135,12 +135,9 @@ I recommend you to use ESlint with the Airbnb config file. More information in t
 If you use [vscode](https://code.visualstudio.com/), download and install extensions:
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) by Dirk Baeumer
 - [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint) by Stylelint
-- [Phpcs](https://marketplace.visualstudio.com/items?itemName=ikappas.phpcs) by Ioannis Kappas
 (If you have followed the [Project setup](#setup) part, you don't need to install anything else).
 
 **Linters's documentation**:<br/>
 - [ESLint](https://eslint.org/)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript), configuration for ESlint
-- [PHP PSR-12: Extended Coding Style](https://www.php-fig.org/psr/psr-12/)
 - [Stylelint](https://stylelint.io/)
-
