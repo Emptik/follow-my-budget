@@ -1,0 +1,66 @@
+// Abstracts
+@use '../../abstracts/' as *;
+
+// Vendors
+@use '../../vendors/sass-mq/mq' as *;
+
+.app {
+    &__header {
+        margin: 0 auto;
+
+        @include mq($from: tablet) {
+            max-width: 350px;
+        }
+    }
+
+    &__inner {
+        max-width: $breakpoint-xl;
+        margin: 50px auto;
+        padding: 0 15px;
+    }
+
+    &__container {
+        @include mq($from: tablet) {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+        }
+
+        &--row {
+            @include mq($from: tablet) {
+                -webkit-box-orient: horizontal;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: row;
+                flex-direction: row;
+            }
+        }
+
+        &--spaceBetween {
+            @include mq($from: tablet) {
+                -webkit-box-pack: justify;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    &__income {
+        @include mq($from: tablet) {
+            width: 45%;
+        }
+    }
+
+    &__expense {
+        @include mq($from: tablet) {
+            width: 45%;
+        }
+    }
+
+    &__incomeTransaction {
+        padding: 30px 0 50px;
+    }
+
+    &__expenseTransaction {
+        padding: 30px 0;
+    }
+}

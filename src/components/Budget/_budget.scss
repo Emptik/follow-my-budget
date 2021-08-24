@@ -1,0 +1,15 @@
+// Abstracts
+@use '../../abstracts/' as *;
+
+// Vendors
+@use '../../vendors/sass-mq/mq' as *;
+
+.budget {
+    display: block;
+    margin-bottom: 30px;
+    font-size: $font-size-budget-total;
+
+    &--center {
+        text-align: center;
+    }
+}
