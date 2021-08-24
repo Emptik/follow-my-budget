@@ -1,5 +1,4 @@
 node_modules/
-vendor/
-application/public/css/
-application/public/sass/vendors/
-application/public/sass/base/_normalize.scss
+dist/
+src/vendors/
+src/base/_normalize.scss
