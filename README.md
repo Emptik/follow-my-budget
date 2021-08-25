@@ -1,6 +1,7 @@
 # Follow My Budget
 Follow My Budget is a budget calculator, mostly built in javascript.<br/>
-It enables you to add your incomes and expenses for the current month and show you the total amount and percentages.<br/>
+It enables you to add your incomes and expenses for the current month and show you the total amount and percentages.
+
 *It is visible at this adress*:
 - [Follow My Budget](https://follow-my-budget.herokuapp.com/)
 
@@ -12,16 +13,14 @@ It enables you to add your incomes and expenses for the current month and show y
 <!-- Setup -->
 ## <a id="setup">Project setup</a>
 1. Download the project by using the command line<br/> 
-**"git clone https://github.com/Emptik/follow-my-budget.git"**<br/>
-or the .zip folder.
+**"git clone https://github.com/Emptik/follow-my-budget.git"** or download manually the .zip folder.
 2. Install npm globally. A good solution on windows is to download the [nodeJs installer](https://nodejs.org/en/download/).<br/>
 NPM is include with nodeJs. Then, inside the root project folder type the command line **"npm ci"**.
 3. Install [SASS](https://sass-lang.com/install) globally.<br/>
 For doing that, type the command line **"npm install -g sass"**.<br/>
 Then i recommend you to compile your scss files by typing the command line **"sass --watch src:dist/css"** in the root project.
 
-> **Note**: In the root folder you will see several configuration files like,<br/>
-".eslintrc.js", ".stylelintrc.json".
+> **Note**: In the root folder you will see several configuration files like, ".eslintrc.js", ".stylelintrc.json".
 They are useful if you want to use some linters, that i recommend you to use.<br/>
 See the part [Useful links](#usefulLinks) down of this page.
 
