@@ -1,0 +1,41 @@
+// Abstracts
+@use '../abstracts/' as *;
+
+// Vendors
+@use '../vendors/sass-mq/mq' as *;
+
+// SMACSS Base
+@font-face {
+    font-family: $font-family-site;
+    src: url('./fonts/abeezee/ABeeZee-Regular.ttf') format('truetype');
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: $color-site-content;
+    font-family: $font-family-site;
+    background-color: $color-site-background;
+}
+
+* {
+    &,
+    &::before,
+    &::after {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}

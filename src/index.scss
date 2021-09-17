@@ -1,0 +1,17 @@
+// Vendors
+@use 'vendors/fontawesome-free-5.15.4-web/scss/fontawesome';
+@use 'vendors/fontawesome-free-5.15.4-web/scss/solid';
+@use 'vendors/fontawesome-free-5.15.4-web/scss/regular';
+
+// Base
+@use 'base/normalize';
+@use 'base/base';
+
+// Components
+@use 'components/App/app';
+@use 'components/Budget/budget';
+@use 'components/Card/card';
+@use 'components/Form/form';
+@use 'components/Header/header';
+@use 'components/Title/title';
+@use 'components/Transaction/transaction';
