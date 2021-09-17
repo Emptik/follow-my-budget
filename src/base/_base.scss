@@ -1,10 +1,7 @@
 // Abstracts
 @use '../abstracts/' as *;
 
-// Vendors
-@use '../vendors/sass-mq/mq' as *;
-
-// SMACSS Base
+// Base
 @font-face {
     font-family: $font-family-site;
     src: url('./fonts/abeezee/ABeeZee-Regular.ttf') format('truetype');

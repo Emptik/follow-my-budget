@@ -1,9 +1,7 @@
 // Abstracts
 @use '../../abstracts/' as *;
 
-// Vendors
-@use '../../vendors/sass-mq/mq' as *;
-
+// Component
 .form {
     padding: 15px;
     text-align: center;

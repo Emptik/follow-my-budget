@@ -3,3 +3,6 @@
 @forward 'variables/colors';
 @forward 'variables/fonts';
 @forward 'variables/breakpoints';
+
+// Media Queries
+@forward 'sass-mq/mq';

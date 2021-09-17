@@ -1,9 +1,7 @@
 // Abstracts
 @use '../../abstracts/' as *;
 
-// Vendors
-@use '../../vendors/sass-mq/mq' as *;
-
+// Component
 .card {
     padding: 0 15px;
     text-transform: uppercase;

@@ -1,9 +1,7 @@
 // Abstracts
 @use '../../abstracts/' as *;
 
-// Vendors
-@use '../../vendors/sass-mq/mq' as *;
-
+// Component
 .header {
     padding: 50px 15px;
     color: $color-budget-content;

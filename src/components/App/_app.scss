@@ -1,9 +1,7 @@
 // Abstracts
 @use '../../abstracts/' as *;
 
-// Vendors
-@use '../../vendors/sass-mq/mq' as *;
-
+// Component
 .app {
     &__header {
         margin: 0 auto;

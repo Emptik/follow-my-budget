@@ -1,9 +1,7 @@
 // Abstracts
 @use '../../abstracts/' as *;
 
-// Vendors
-@use '../../vendors/sass-mq/mq' as *;
-
+// Component
 .budget {
     display: block;
     margin-bottom: 30px;
