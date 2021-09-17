@@ -16,9 +16,9 @@ It enables you to add your incomes and expenses for the current month and show y
 **"git clone https://github.com/Emptik/follow-my-budget.git"** or download manually the .zip folder.
 2. Install npm globally. A good solution on windows is to download the [nodeJs installer](https://nodejs.org/en/download/).<br/>
 NPM is include with nodeJs. Then, inside the root project folder type the command line **"npm ci"**.
-3. Install [SASS](https://sass-lang.com/install) globally.<br/>
-For doing that, type the command line **"npm install -g sass"**.<br/>
-Then i recommend you to compile your scss files by typing the command line **"sass --watch src:dist/css"** in the root project.
+3. This project use webpack.<br/>
+To start the development server, use **"npm run serve"**.<br/>
+For building the solution, use the command line **"npm run build"**.
 
 > **Note**: In the root folder you will see several configuration files like, ".eslintrc.js", ".stylelintrc.json".
 They are useful if you want to use some linters, that i recommend you to use.<br/>
@@ -28,7 +28,7 @@ See the part [Useful links](#usefulLinks) down of this page.
 ## <a id="project">Project</a>
 
 ### dist
-The dist folder contain your css files.
+The dist folder contain your building files, ready to go on the server.
 
 ### src
 The src folder contains all necessary files for the development of the application.
