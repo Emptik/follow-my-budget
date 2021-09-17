@@ -88,9 +88,6 @@ The fonts folder contains all the fonts necessary for the app ;)
 The store is a kind of "state management pattern".<br/>
 It serves as a centralized data storage area for all components.
 
-### vendors
-The vendors folder contains all external necessary tools like, "fontawesome" and "sass-mq".
-
 <!-- Usefull Links -->
 ## <a id="usefulLinks">Useful links</a>
 - [SMACSS documentation](http://smacss.com/)
