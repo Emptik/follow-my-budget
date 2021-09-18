@@ -19,24 +19,17 @@
 
     &__container {
         @include mq($from: tablet) {
-            display: -webkit-box;
-            display: -ms-flexbox;
             display: flex;
         }
 
         &--row {
             @include mq($from: tablet) {
-                -webkit-box-orient: horizontal;
-                -webkit-box-direction: normal;
-                -ms-flex-direction: row;
                 flex-direction: row;
             }
         }
 
         &--spaceBetween {
             @include mq($from: tablet) {
-                -webkit-box-pack: justify;
-                -ms-flex-pack: justify;
                 justify-content: space-between;
             }
         }
