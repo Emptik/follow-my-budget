@@ -5,11 +5,11 @@ import '@fortawesome/fontawesome-free/js/solid.min.js';
 import '@fortawesome/fontawesome-free/js/fontawesome.min.js';
 
 // Components
-import DateView from './components/Date/DateView.js';
-import FormView from './components/Form/FormView.js';
-import TransactionView from './components/Transaction/TransactionView.js';
-import BudgetView from './components/Budget/BudgetView.js';
-import CardView from './components/Card/CardView.js';
+import DateView from './components/date/DateView.js';
+import FormView from './components/form/FormView.js';
+import TransactionView from './components/transaction/TransactionView.js';
+import BudgetView from './components/budget/BudgetView.js';
+import CardView from './components/card/CardView.js';
 
 const initBudget = () => {
     const budget = new BudgetView();
