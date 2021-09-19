@@ -1,0 +1,24 @@
+// Abstracts
+@use '../../abstracts/' as *;
+
+// Component
+.title {
+    margin-bottom: 30px;
+    font-size: $font-size-title;
+
+    &--center {
+        text-align: center;
+    }
+
+    &--income {
+        margin-bottom: 0;
+        color: $color-income;
+        text-transform: uppercase;
+    }
+
+    &--expense {
+        margin-bottom: 0;
+        color: $color-expense;
+        text-transform: uppercase;
+    }
+}
