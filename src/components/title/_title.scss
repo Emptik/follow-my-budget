@@ -1,5 +1,12 @@
-// Abstracts
+// Abstracts OLD
 @use '../../abstracts/' as *;
+
+// Color
+$color-title-income: #43658b;
+$color-title-expense: #ed6663;
+
+// Font-size
+$font-size-title: 2rem;
 
 // Component
 .title {
@@ -12,13 +19,13 @@
 
     &--income {
         margin-bottom: 0;
-        color: $color-income;
+        color: $color-title-income;
         text-transform: uppercase;
     }
 
     &--expense {
         margin-bottom: 0;
-        color: $color-expense;
+        color: $color-title-expense;
         text-transform: uppercase;
     }
 }

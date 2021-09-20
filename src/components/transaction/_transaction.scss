@@ -1,15 +1,23 @@
 // Abstracts
 @use '../../abstracts/' as *;
 
-// Variables
+// Color
 $color-transaction-border: rgb(134, 134, 134);
 $color-transaction-btn: #555;
+$color-transaction-expense-value: #ed6663;
+$color-transaction-expense-background: #ffcda3;
+
+// Border
 $border-transaction: 1px solid $color-transaction-border;
+
+// Font-size
+$font-size-transaction-text: 1.5rem;
+$font-size-transaction-btn: 2.5rem;
 
 // Component
 .transaction {
     padding: 0 10px;
-    font-size: $font-size-item;
+    font-size: $font-size-transaction-text;
     border-bottom: $border-transaction;
 
     &:first-child {
@@ -23,8 +31,8 @@ $border-transaction: 1px solid $color-transaction-border;
     &__percentage {
         margin-right: 10px;
         padding: 5px;
-        color: $color-expense;
-        background-color: $color-expense-background;
+        color: $color-transaction-expense-value;
+        background-color: $color-transaction-expense-background;
         border-radius: 3px;
 
         &--center {
@@ -35,7 +43,7 @@ $border-transaction: 1px solid $color-transaction-border;
     &__delete {
         padding: 0;
         color: $color-transaction-btn;
-        font-size: $font-size-item-btn;
+        font-size: $font-size-transaction-btn;
         background: none;
         border: initial;
         cursor: pointer;

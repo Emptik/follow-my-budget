@@ -1,22 +1,29 @@
 // Abstracts OLD
 @use '../../abstracts/' as *;
 
-// Variables
+// Color
+$color-card-expense-background: #ed6663;
+$color-card-income-background: #43658b;
+$color-card-percentage-background: #ffcda3;
 $color-card-text: #fff;
+
+// Font-size
+$font-size-card: 1.5rem;
 
 // Component
 .card {
     padding: 0 15px;
     color: $color-card-text;
+    font-size: $font-size-card;
     text-transform: uppercase;
 
     &--income {
         margin-bottom: 10px;
-        background-color: $color-income;
+        background-color: $color-card-income-background;
     }
 
     &--expense {
-        background-color: $color-expense;
+        background-color: $color-card-expense-background;
     }
 
     &__container {
@@ -39,7 +46,7 @@ $color-card-text: #fff;
     &__percentage {
         margin-left: 10px;
         padding: 5px;
-        background-color: $color-expense-background;
+        background-color: $color-card-percentage-background;
         border-radius: 3px;
 
         &--center {

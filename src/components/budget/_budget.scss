@@ -1,11 +1,14 @@
 // Abstracts
 @use '../../abstracts/' as *;
 
+// Font-size
+$font-size-budget: 5rem;
+
 // Component
 .budget {
     display: block;
     margin-bottom: 30px;
-    font-size: $font-size-budget-total;
+    font-size: $font-size-budget;
 
     &--center {
         text-align: center;

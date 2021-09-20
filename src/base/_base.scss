@@ -1,24 +1,18 @@
 // Abstracts OLD
 @use '../abstracts/' as *;
 
-// Variables
-$color-site-background: #fff;
-$color-site-content: #555;
+// Font Family
+// $font-family-base: sans-serif;
+$font-family-base: 'ABeeZee-Regular';
 
 // Base
 @font-face {
-    font-family: $font-family-site;
+    font-family: $font-family-base;
     src: url('./fonts/abeezee/ABeeZee-Regular.ttf') format('truetype');
 }
 
 html {
     font-size: 62.5%;
-}
-
-body {
-    color: $color-site-content;
-    font-family: $font-family-site;
-    background-color: $color-site-background;
 }
 
 * {
@@ -30,8 +24,10 @@ body {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     margin: 0;
+    font-weight: normal;
 }
 
 input {

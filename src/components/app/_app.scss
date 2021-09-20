@@ -1,8 +1,19 @@
 // Abstracts
 @use '../../abstracts/' as *;
 
+// Color
+$color-app-background: #fff;
+$color-app-text: #555;
+
+// Font-family
+$font-family-app: 'ABeeZee-Regular', sans-serif;
+
 // Component
 .app {
+    color: $color-app-text;
+    font-family: $font-family-app;
+    background-color: $color-app-background;
+
     &__header {
         margin: 0 auto;
 
