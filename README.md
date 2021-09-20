@@ -15,33 +15,36 @@ It enables you to add your incomes and expenses for the current month and show y
 1. Download the project by using the command line<br/> 
 **"git clone https://github.com/Emptik/follow-my-budget.git"** or download manually the .zip folder.
 2. Install npm globally. A good solution on windows is to download the [nodeJs installer](https://nodejs.org/en/download/).<br/>
-NPM is include with nodeJs. Then, inside the root project folder type the command line **"npm ci"**.
+NPM is include with nodeJs. Then, inside the root project folder type the command line **"npm ci"**, to install necessary packages.
 3. This project use webpack.<br/>
-To start the development server, use **"npm run serve"**.<br/>
-For building the solution, use the command line **"npm run build"**.
+To start the development server, use **"npm run serve"**.
 
 > **Note**: In the root folder you will see several configuration files like, ".eslintrc.js", ".stylelintrc.json".
-They are useful if you want to use some linters, that i recommend you to use.<br/>
+They are useful for the configuration of the linters.<br/>
 See the part [Useful links](#usefulLinks) down of this page.
 
 <!-- Project -->
 ## <a id="project">Project</a>
 
 ### dist
-The dist folder contain your building files, ready to go on the server.
+The dist folder contains building files, ready to go on the server.
 
 ### src
 The src folder contains all necessary files for the development of the application.
+
+### global
+This section contains files accessible throughout the application<br/>
+They could have a role on several components at the same time.
+> **Note**: The normalize or reset scss file goes in this folder.
 
 ### abstracts
 This section contains all files that do not report directly to CSS selectors.<br/>
 We will find mainly global variables, global mixins.
 
 ### base
-The base folder contain the base rules.<br/>
+The base file contain the base rules.<br/>
 They define the default style of an element for all its appearances on the page.<br/>
-Don't forget that most of the parts of a website may change in the futur, so use them sparingly.<br/>
-A base file should stay minimalist.<br/>
+However most of the parts of a website may change in the futur, so this file should stay minimalist.<br/>
 Rules are the same as in ["SMACSS"](http://smacss.com/)
 
 Allowed selectors are:
@@ -56,8 +59,6 @@ Allowed selectors are:
 Forbidden selectors:
 - Class (`.className`)
 - Id (`#idName`)
-
-> **Note**: The normalize or reset scss file goes in this folder.
 
 ### components
 This section contains only UI components<br/>
@@ -78,8 +79,6 @@ The BEM syntax used for this project is as follow:
 External geometry is not allowed on a block component (Prefer padding instead of margin), but is allowed on an element.<br/>
 On this project, contrary to the recommendations of the BEM documentation,<br/>
 it is not possible to have a block and an element on a single dom node.
-
-I recommend you to use ESlint with the Airbnb config file. More information in the Useful links part below.
 
 ### fonts
 The fonts folder contains all the fonts necessary for the app ;)
