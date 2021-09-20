@@ -1,6 +1,6 @@
 // Base
-@use 'base/normalize';
-@use 'base/base';
+@use 'global/normalize';
+@use 'global/base';
 
 // Components
 @use 'components/app/app';
