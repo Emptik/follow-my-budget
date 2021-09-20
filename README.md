@@ -3,7 +3,7 @@ Follow My Budget is a budget calculator, mostly built in javascript.<br/>
 It enables you to add your incomes and expenses for the current month and show you the total amount and percentages.
 
 *It is visible at this adress*:
-- [Follow My Budget](https://follow-my-budget.herokuapp.com/)
+- [Follow My Budget](https://follow-my-budget.netlify.app/)
 
 ## Table of Contents
 - [Project setup](#setup)
