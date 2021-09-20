@@ -1,9 +1,13 @@
-// Abstracts
+// Abstracts OLD
 @use '../../abstracts/' as *;
+
+// Variables
+$color-card-text: #fff;
 
 // Component
 .card {
     padding: 0 15px;
+    color: $color-card-text;
     text-transform: uppercase;
 
     &--income {

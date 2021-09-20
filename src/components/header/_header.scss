@@ -4,7 +4,6 @@
 // Component
 .header {
     padding: 50px 15px;
-    color: $color-budget-content;
     font-size: $font-size-budget-content;
 
     @include mq($from: tablet) {
