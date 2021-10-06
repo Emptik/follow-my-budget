@@ -4,7 +4,6 @@
   "description": "Follow My Budget is a budget calculator, mostly built in javascript.<br/>\r It enables you to add your incomes and expenses for the current month and show you the total amount and percentages.",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
@@ -44,7 +43,5 @@
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.2.1"
   },
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.4"
-  }
+  "dependencies": {}
 }
