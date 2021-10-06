@@ -3,7 +3,6 @@
 
 // Color
 $color-transaction-border: rgb(134, 134, 134);
-$color-transaction-btn: #555;
 $color-transaction-expense-value: #ed6663;
 $color-transaction-expense-background: #ffcda3;
 
@@ -42,8 +41,6 @@ $font-size-transaction-btn: 2.5rem;
 
     &__delete {
         padding: 0;
-        color: $color-transaction-btn;
-        font-size: $font-size-transaction-btn;
         background: none;
         border: initial;
         cursor: pointer;
@@ -56,7 +53,7 @@ $font-size-transaction-btn: 2.5rem;
     }
 
     &__icon {
-        display: flex;
+        display: block;
     }
 
     &__container {

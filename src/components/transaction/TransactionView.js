@@ -1,4 +1,5 @@
 import store from '../../store/main.js';
+import iconCancel from './images/cancel.svg';
 
 export default class TransactionView {
     constructor() {
@@ -26,7 +27,7 @@ export default class TransactionView {
                     <div class="transaction__container transaction__container--row transaction__container--spaceBetween transaction__container--itemsCenter">
                         <span class="transaction__value">${lastTransaction.value}</span>
                         <button class="transaction__delete transaction__delete--active">
-                            <i class="transaction__icon far fa-times-circle"></i>
+                            <img class="transaction__icon" src="${iconCancel}" alt="Icon cancel">
                         </button>
                     </div>
                 </div>
@@ -41,7 +42,7 @@ export default class TransactionView {
                         <span class="transaction__value">${lastTransaction.value}</span>
                         <span class="transaction__percentage transaction__percentage--center"></span>
                         <button class="transaction__delete transaction__delete--active">
-                            <i class="transaction__icon far fa-times-circle"></i>
+                            <img class="transaction__icon" src="${iconCancel}" alt="Icon cancel">
                         </button>
                     </div>
                 </div>
