@@ -1,4 +1,4 @@
 node_modules/
 dist/
-src/abstracts/sass-mq
-src/base/_normalize.scss
+src/global/abstracts/mixins/sass-mq
+src/global/_normalize.scss
